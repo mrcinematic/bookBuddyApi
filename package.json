@@ -1,0 +1,30 @@
+{
+  "name": "bookbuddyapi",
+  "version": "1.0.0",
+  "description": "API for the book-buddy react project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "seed:dev": "nodemon ./db/seed.js",
+    "seed": "node ./db/seed.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrcinematic/bookBuddyApi.git"
+  },
+  "author": "daniel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrcinematic/bookBuddyApi/issues"
+  },
+  "homepage": "https://github.com/mrcinematic/bookBuddyApi#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
+    "nodemon": "^3.1.7",
+    "pg": "^8.13.0"
+  }
+}
